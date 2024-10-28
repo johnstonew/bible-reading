@@ -56,6 +56,8 @@ const data = [
 
 //Get Today's date
 const today = new Date()
+dateEL.textContent = today.toLocaleDateString()
+
 const date = today.toJSON().slice(5, 10)
 
 //Get Today's verse
@@ -84,6 +86,5 @@ const prevDate = prevdateString.toJSON().slice(5, 10)
 
 const prevVerse = data.find((verses) => verses.date == prevDate)
 
-dateEL.textContent = today.toLocaleDateString()
 prevDayEL.textContent = prevVerse.verse
 
