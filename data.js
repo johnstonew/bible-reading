@@ -58,10 +58,10 @@ const data = [
 const today = new Date()
 dateEL.textContent = today.toLocaleDateString()
 
-const date = today.toJSON().slice(5, 10)
+const date = `${today.getMonth() + 1}-${today.getDate()}`
 
 //Get Today's verse
-const todaysVerse = data.find((verses) => verses.date == date)
+const todaysVerse = data.find((verses) => verses.date === date)
 
 let verseToRead = todaysVerse.verse
 
@@ -82,7 +82,7 @@ infoEL.innerHTML = `<a href="${link}" target="_blank">Start reading</a>`
 
 // Previous day verse
 const prevdateString = new Date(today.setDate(today.getDate() - 1))
-const prevDate = prevdateString.toJSON().slice(5, 10)
+const prevDate = `${prevdateString.getMonth() + 1}-${prevdateString.getDate()}`
 
 const prevVerse = data.find((verses) => verses.date == prevDate)
 
