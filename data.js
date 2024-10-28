@@ -74,7 +74,7 @@ firstVerse = rawFirstVerse.replace(' ', '%20')
 // Verse link to read today's scripture
 let link = `https://www.biblegateway.com/passage/?search=${firstVerse}&version=NIV`
 
-infoEL.innerHTML = `<a href="${link}">Start reading</a>`
+infoEL.innerHTML = `<a href="${link}" target="_blank">Start reading</a>`
 
 
 
