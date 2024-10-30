@@ -25,6 +25,7 @@ const data = [
 	date: '10-30',
 	day: 30,
 	verse: 'Acts 28 - Romans 1 - 3',
+	msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 	date: '10-31',
@@ -55,6 +56,7 @@ const data = [
 		date: '11-5',
 		day: 36,
 		verse: '1 Corinthians 8 - 1 Corinthians 11',
+		msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 		date: '11-6',
@@ -75,6 +77,7 @@ const data = [
 		date: '11-9',
 		day: 40,
 		verse: '2 Corinthians 8 - 2 Corinthians 11',
+		msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 		date: '11-10',
@@ -85,6 +88,7 @@ const data = [
 		date: '11-11',
 		day: 42,
 		verse: 'Galatians 3 - Galatians 6',
+		msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 		date: '11-12',
@@ -116,6 +120,7 @@ const data = [
 		date: '11-17',
 		day: 48,
 		verse: '2 Thessalonians 2 - 1 Timothy 1,  2',
+		msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 		date: '11-18',
@@ -131,6 +136,7 @@ const data = [
 		date: '11-20',
 		day: 51,
 		verse: 'Titus 1 -  Titus 2, 3, Philemon 1',
+		msg: 'We are getting there 🥁🥁🥁',
 	},
 	{ 
 		date: '11-21',
